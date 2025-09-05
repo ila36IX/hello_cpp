@@ -1,0 +1,6 @@
+BasedOnStyle: Microsoft
+UseTab: Always
+SeparateDefinitionBlocks: Always
+# AccessModifierOffset: -4
+PackConstructorInitializers: NextLine
+BreakConstructorInitializers: AfterColon

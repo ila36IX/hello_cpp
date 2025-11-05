@@ -6,8 +6,6 @@ inline void string_trim(std::string &str)
         str.erase(str.find_last_not_of(' ') + 1);
 }
 
-
-
 inline void delete_leftovers_cin()
 {
         std::cin.clear();

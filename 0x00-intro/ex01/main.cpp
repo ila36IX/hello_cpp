@@ -13,6 +13,8 @@ void get_index_display_contact(PhoneBook &ph)
                         break;
                 std::cout << "Index (-1 to cancel): ";
                 getline(std::cin, nbr);
+                if (!std::cin.good())
+                        break;
                 try
                 {
                         index = str_to_int(nbr);
@@ -37,6 +39,8 @@ int main()
         {
                 std::cout << "(ADD, SEARCH, EXIT)$ ";
                 std::getline(std::cin, action);
+                if (!std::cin.good())
+                        return 1;
                 if (action == "ADD")
                         pb.add_new_contact();
                 else if (action == "SEARCH")

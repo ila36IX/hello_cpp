@@ -1,7 +1,7 @@
 CPPFLAGS  = -Wall -Wextra -Werror -std=c++98
 SRC_FILES = Contact.cpp  main.cpp  PhoneBook.cpp  utils.cpp
 SRC_OBJ   = $(SRC_FILES:%.cpp=%.o)
-NAME      = a.out
+NAME      = run
 CXX       = c++
 
 all: $(NAME)

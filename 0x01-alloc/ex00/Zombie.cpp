@@ -18,7 +18,8 @@ Zombie &Zombie::operator=(const Zombie &other)
         return (*this);
 }
 
-Zombie::~Zombie() {
+Zombie::~Zombie()
+{
         std::cout << this->name << ": Goodbye\n";
 };
 

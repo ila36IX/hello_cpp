@@ -1,3 +1,6 @@
+#ifndef HARL_H
+#define HARL_H
+
 #include <string>
 #include <iostream>
 
@@ -11,8 +14,7 @@ class Harl
 
       public:
         Harl();
-        Harl(const Harl &);
-        Harl &operator=(const Harl &);
         void complain(std::string level);
-        ~Harl();
 };
+
+#endif // !HARL_H

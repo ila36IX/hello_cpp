@@ -1,6 +1,6 @@
 CPPFLAGS  = -Wall -Wextra -Werror -std=c++98
+SRC_FILES = Harl.cpp  main.cpp
 SRC_OBJ   = $(SRC_FILES:%.cpp=%.o)
-SRC_FILES = $(wildcard *.cpp)
 NAME      = runme
 CXX       = c++
 

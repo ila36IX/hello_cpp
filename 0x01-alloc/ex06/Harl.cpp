@@ -4,22 +4,6 @@ Harl::Harl()
 {
 }
 
-Harl::~Harl()
-{
-}
-
-Harl::Harl(const Harl &other)
-{
-        (void)other;
-}
-
-Harl &Harl::operator=(const Harl &other)
-{
-        if (&other == this)
-                return (*this);
-        return (*this);
-}
-
 void Harl::debug(void)
 {
         std::cout << "[DEBUG]\n";
@@ -63,19 +47,10 @@ void Harl::complain(std::string level)
         {
                 case (0):
                         debug();
-                        info();
-                        warning();
-                        error();
-                        break;
                 case (1):
                         info();
-                        warning();
-                        error();
-                        break;
                 case (2):
                         warning();
-                        error();
-                        break;
                 case (3):
                         error();
                         break;

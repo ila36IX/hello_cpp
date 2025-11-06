@@ -1,4 +1,11 @@
+#ifndef HARL_H
+#define HARL_H
+
+#include <functional>
+#include <iostream>
 #include <string>
+
+#define CALL_MEMBER_FN(object, ptrToMember) ((object).*(ptrToMember))
 
 class Harl
 {
@@ -10,8 +17,7 @@ class Harl
 
       public:
         Harl();
-        Harl(const Harl &);
-        Harl &operator=(const Harl &);
         void complain(std::string level);
-        ~Harl();
 };
+
+#endif // !HARL_H

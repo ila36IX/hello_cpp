@@ -1,6 +1,6 @@
 CPPFLAGS  = -Wall -Wextra -Werror -std=c++98
 SRC_OBJ   = $(SRC_FILES:%.cpp=%.o)
-SRC_FILES = $(wildcard *.cpp)
+SRC_FILES = bsp.cpp  Fixed.cpp  main.cpp  Point.cpp
 NAME      = a.out
 CXX       = c++
 

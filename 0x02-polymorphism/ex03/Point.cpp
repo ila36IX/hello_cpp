@@ -16,7 +16,6 @@ Point::~Point()
 {
 }
 
-
 Point &Point::operator=(const Point &other)
 {
         if (this == &other)

@@ -1,6 +1,6 @@
 #include "Fixed.h"
 
-int _main(void)
+int main(void)
 
 {
         Fixed a;
@@ -17,7 +17,7 @@ int _main(void)
         return 0;
 }
 
-int main()
+int _main()
 {
         Fixed a(2.2f);
         Fixed b(2);
@@ -35,5 +35,9 @@ int main()
         std::cout << "a - b = " << a - b << "\n";
         std::cout << "a / b = " << a / b << "\n";
         std::cout << "a * b = " << a * b << "\n";
+        Fixed n1 = 1;
+        Fixed n2 = ++n1;
+        Fixed n3 = ++++n2;
+        std::cout << "n3 = " << n3 << "\n";
         return (0);
 }

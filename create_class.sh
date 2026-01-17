@@ -21,7 +21,7 @@ if [[ -f "$class_name.h" || -f "$class_name.cpp" ]]; then
 	exit 1
 fi
 
-header_guard=$(to_screaming_snake_case $class_name)
+header_guard="$(to_screaming_snake_case $class_name)_H"
 
 # Creating the header file
 cat > "$class_name.h" << EOF

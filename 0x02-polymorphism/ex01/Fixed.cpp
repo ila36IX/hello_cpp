@@ -32,6 +32,7 @@ Fixed &Fixed::operator=(const Fixed &other)
         return (*this);
 }
 
+
 std::ostream& operator<<(std::ostream& os, const Fixed& fp)
 {
         os << fp.toFloat();

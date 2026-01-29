@@ -141,7 +141,8 @@ Fixed &Fixed::operator++()
 
 Fixed &Fixed::operator--()
 {
-        this->raw_bits--;
+        // this->raw_bits--;
+        this->raw_bits -= (1 << frac_size);
         return (*this);
 }
 

@@ -37,23 +37,23 @@ void ShrubberyCreationForm::executeRun() const
                 std::cout << "Error: Coudn't open " << filename << "\n";
                 return;
         }
-        file << "         v\n"
-             << "        >X<\n"
-             << "         A\n"
-             << "        d$b\n"
-             << "      .d\\g$$b.\n"
-             << "    .d$i$$\\g$$b.\n"
-             << "       d$$@b\n"
-             << "      d\\g$$$ib\n"
-             << "    .d$$$\\g$$$b\n"
-             << "  .d$$@$$$$\\g$$ib.\n"
-             << "      d$$i$$b\n"
-             << "     d\\g$$$$@$b\n"
-             << "  .d$@$$\\g$$$$$@b.\n"
-             << ".d$$$$i$$$\\g$$$$$$b.\n"
-             << "        ###\n"
-             << "        ###\n"
-             << "        ### mh\n";
+        file << "         v            \n"
+             << "        >X<           \n"
+             << "         A            \n"
+             << "        d$b           \n"
+             << "      .d\\g$$b.       \n"
+             << "    .d$i$$\\g$$b.     \n"
+             << "       d$$@b          \n"
+             << "      d\\g$$$ib       \n"
+             << "    .d$$$\\g$$$b      \n"
+             << "  .d$$@$$$$\\g$$ib.   \n"
+             << "      d$$i$$b         \n"
+             << "     d\\g$$$$@$b      \n"
+             << "  .d$@$$\\g$$$$$@b.   \n"
+             << ".d$$$$i$$$\\g$$$$$$b. \n"
+             << "        ###           \n"
+             << "        ###           \n"
+             << "        ### mh        \n";
 }
 
 AForm *ShrubberyCreationForm::clone(const std::string &target) const

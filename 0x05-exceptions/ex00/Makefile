@@ -1,5 +1,5 @@
 CPPFLAGS  = -Wall -Wextra -Werror -g3 -ggdb3 -std=c++98
-SRC_FILES = Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp main.cpp
+SRC_FILES = Bureaucrat.cpp  main.cpp
 SRC_OBJ   = $(SRC_FILES:%.cpp=%.o)
 NAME      = runme
 CXX       = c++
